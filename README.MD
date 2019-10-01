@@ -36,11 +36,6 @@ pip install -r requirements.txt
 python3 main.py -p <IMAGES_&_XML_PATH> --output <IMAGES_&_XML> --new_x <NEW_X_SIZE> --new_y <NEW_X_SIZE> --save_box_images <FLAG>"
 ```
 
-## Example
-```
-python3 main.py -p /home/italojs/Pictures/dataset --output ./output --new_x 150 --new_y 150 --save_box_images 1
-```
-
 ## Folder structure example
 
 Look this *randon* folder structure with ALL my dataset
@@ -79,7 +74,7 @@ dataset
 
 After executed the package with:
 ```
-python3 main.py -p /home/italojs/Pictures/dataset --output ./output --new_x 200 --new_y 200 --save_box_images 1
+python3 main.py -p /home/Ordrix/Pictures/dataset --output ./output --new_x 200 --new_y 200 --save_box_images 1
 ``` 
 The package will resize the images, rewrite the xml files and create the same folder structure into `output path` with new images and xml files.
 ``` 
